@@ -1,0 +1,47 @@
+.heder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    background-color: aqua;
+}
+
+.heder2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heder3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+} 
+.div {
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin-top: 50px;
+    
+}
+
+.contena {
+    border: 2px solid black;
+    width: 20%;
+    height: 80px;
+    line-height: 2rem;
+    margin-top: 50px;
+}
+.num {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}

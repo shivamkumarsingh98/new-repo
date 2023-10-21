@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3B4664;
+}
+.search {
+    /* border: 2px solid black;
+    width: 80vh;
+    height: 80vh;
+    background-color: aqua; */
+
+}
+input {
+    width: 400px;
+    margin-left: 15px;
+    height: 6rem;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 40px;
+    color:white;
+    background-color: #181f32;
+
+}
+.box {
+    border: 2px solid black;
+    background-color: #181f32;
+    padding: 10px;
+    margin: 1rem;
+    border-radius: 10px;
+}
+.btn {
+    padding: 1rem;
+    margin: 1rem;
+    width: 60px;
+    height: 8px;
+    border-radius: 10px;
+    background-color: #EAE3DB;
+    text-align: center;
+    line-height: 1.2px;
+    font-size: 18px;
+   
+
+}
+.btn1 {
+    width: 150px;
+}
+.btn2 {
+    width: 150px;
+    height: 8px;
+    background-color: brown;
+}
+.btn0 {
+    background-color: #181f32;
+    color: #EAE3DB;
+}
+
+@media(max-width: 500px){
+    .btn {
+        padding: 1rem;
+        margin: 1rem;
+        width: 50px;
+        height: 5px;
+        border-radius: 10px;
+        background-color: #EAE3DB;
+        text-align: center;
+        line-height: 1.2px;
+        font-size: 18px;
+    
+    }
+    .btn0 {
+        background-color: #181f32;
+        color: #EAE3DB;
+    }
+    .btn1 {
+        width: 130px;
+    }
+    .btn2 {
+        width: 130px;
+        height: 8px;
+        background-color: brown;
+    }
+}
+@media(max-width: 500px){
+    input {
+        width: 360px;
+        margin-left: 15px;
+        height: 6rem;
+        border-radius: 10px;
+        text-align: right;
+        font-size: 40px;
+        color:white;
+        background-color: #181f32;
+    
+    }
+}
+
+@media(max-width: 400px){
+    .btn {
+        padding: 0.85rem;
+        margin: 0.85rem;
+        width: 40px;
+        height: 5px;
+        border-radius: 10px;
+        background-color: #EAE3DB;
+        text-align: center;
+        line-height: 1.2px;
+        font-size: 18px;
+}
+.btn0 {
+    background-color: #181f32;
+    color: #EAE3DB;
+}
+.btn1 {
+    width: 110px;
+}
+.btn2 {
+    width: 110px;
+    height: 8px;
+    background-color: brown;
+}
+input {
+    width: 30px;
+    margin-left: 15px;
+    height: 6rem;
+    border-radius: 10px;
+    text-align: right;
+    font-size: 40px;
+    color:white;
+    background-color: #181f32;
+
+}
+}

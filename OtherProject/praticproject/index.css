@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+                linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+                linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#contenar {
+    width: 400px;
+    height: 400px; 
+    border: 0.5px solid white ;
+    margin-top: 5rem;  
+    padding-top: 20px; 
+}
+.ranges {
+    width: 300px;
+    margin-left: 25px;
+    margin-top: 5px;
+    
+
+   
+}
+.length {
+    display: flex;
+    font-size: 25px;
+    margin: 10px 0px;
+    padding-left: 20px;
+    color: white;
+
+}
+
+span {
+    margin-left: 160px;
+}
+
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+.inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#number {
+    width: 300px;
+    height: 40px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 1.45;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rem {
+    font-size: 25px;
+    margin: 10px 0px;
+    padding-left: 20px;
+    color: white;
+}
+.case {
+    width: 60px;
+    height: 15px;
+    margin-left: 70px;   
+}
+.case2{
+    width: 60px;
+    height: 15px;
+    margin-left: 65px;
+}
+.case3{
+    width: 60px;
+    height: 15px;
+    margin-left: 172px;
+}
+.case4{
+    width: 60px;
+    height: 15px;
+    margin-left: 155px;
+}
+
+#btn :hover {
+    color: rgb(194, 194, 206);
+    cursor: pointer;
+}
+
+#btn {
+    width: 300px;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+    background-color: rgb(86, 86, 184);
+    font-size: 20px;
+    color: white;
+}
+

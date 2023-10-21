@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+        function getElement(){
+            let data = [1,2,3,4,5,6,7,8,9]
+    let newEl = document.getElementById('newEl').value;
+    let position = document.getElementById('position').value;
+    console.log(data)
+    
+        for(let i= 0; i<data.length; i++){
+        if(i==position){
+            data[i]= newEl;
+           
+        }
+       
+    }
+            console.log(data)
+        }
+    
+    
+   
+  
+    
+
+    // function getElement(){
+    //     let el = document.getElementById('elemant').value
+    //     let write = document.getElementById('write')
+    //     if(el<data.length ){
+    //         write.innerHTML = data[el]
+    //     }else {
+    //         write.innerHTML = "please enter right number"
+    //     }
+        
+    // }
+
+
+</script>
+</head>
+<body>
+
+    <input type="text" id="position">
+    <input type="text" id="newEl">
+    <button onclick="getElement()">get press</button>
+    <p id="write"></p>
+</body>
+</html>

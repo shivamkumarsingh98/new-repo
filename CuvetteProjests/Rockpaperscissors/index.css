@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+body{
+    background-color: #89C15E;
+}
+
+
+.cantener{
+    border: 2px solid white;
+    /* padding: 40px; */
+    /* margin: 20px; */
+    border-radius: 13px;
+    display: flex;
+    justify-content: space-between;
+    Width:800px;
+    Height:158px;
+    margin:35px 0px 0px 370px ;
+    /* Top:62px;
+    Left:240px; */
+
+}
+/* h1{
+    width:500px;
+    height:200 px;
+} */
+.sec1{
+    color:white;
+    margin: 10px;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 4px;
+}
+.sec2{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.box1{
+    border: 1px solid white;
+    height:130px;
+    width:150px;
+    border-radius:10px;
+    text-align: center;
+    margin: 15px;
+    padding-top: 7px;   
+    background-color: white;
+    
+}
+.box2{
+    border: 1px solid white;
+    height:130px;
+    width:150px;
+    border-radius:10px;
+    text-align: center;
+    margin: 15px;
+    padding-top: 10px;
+    background-color: white;
+}
+
+span{
+    /* margin-top: 5px; */
+    font-size:90px;
+}
+#scr2{
+    padding-top:50px;
+}
+#sec3{
+    /* border: 2px solid black; */
+    width: 470px;
+    height: 350px;
+}
+.panel{
+    width: 940px;
+    height: 370px;
+    /* border: 2px solid black; */
+    margin-left: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box3{
+    display:flex;
+    justify-content: space-evenly;
+    margin-top:50px;
+}
+.box4{
+    margin-top: 80px;
+    padding-left: 198px;
+}
+.photos{
+    border-radius: 50%;
+    width: 110px;   
+}
+
+button{
+    border-radius: 50%;
+    width: 105px;
+    height: 100px;
+    background-color: white;
+    border: none;
+    
+}
+.btn{
+    
+    cursor: pointer; 
+}
+#sec4 {
+    width: 180px;
+    border:3px solid white;
+    height: 260px;
+    margin-right: 20px;
+    border-radius:20px;
+    background: #004429;
+    
+}
+#sec4 p {
+    text-align: center;
+    
+}
+hr {
+    width: 30px;
+    rotate: 45;
+    background-color: gray;
+}
+
+/* // app html */
+
+.imades02{
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.imades{
+    width: 300px;
+    height: 300px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 350px;
+    background: rgba(46, 154, 37, 0.39);
+    box-shadow: 0px 1px 62px 0px(0, 0, 0, 0.13);
+    background:cove;
+}
+.imades2{
+    
+    padding-left:20px;
+    width: 220px;
+    height: 240px;
+    flex-shrink: 0;
+    border-radius: 350px;
+    background: #2e9a25;
+    box-shadow: 0px 1px 62px 0px(0, 0, 0, 0.13);
+}
+.imades2 p {
+    padding-left:50px;
+    color: white;
+}
+.imades3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 350px;
+    background: #2f8328;
+    box-shadow: 0px 1px 62px 0px(0, 0, 0, 0.13);
+}
+.desigin{
+    margin: 70px 0px 0px 350px;
+    /* border: 1px solid black; */
+    width: 800px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-shrink: 0;
+    
+}
+.platitem h2{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 3.9px;
+    color: white;
+}
+.PICKED{
+    color: white;
+    margin-bottom: 50px;
+}
+
+.photo{
+    border-radius: 50%;
+    width: 110px;  
+    margin-bottom:40px;
+}
+
+.platitem p{
+    color: #FFF;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: 2.5px;
+    margin-top: 5px;
+}
+
+/* .platitem{
+    padding: 10px;
+    margin: 10px;
+} */
+.platitem input{
+    width: 174px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 9px;
+    background: #FFF;
+    margin-left: 15px;
+    margin-top: 15px;
+    border: 1px solid white;
+
+}
+.butons {
+    display: flex;
+    justify-content: flex-end ;
+    align-items: center;
+    padding-right: 20px;
+    
+}
+.inputbtn {
+    width: 119px;
+    height: 40px;
+    flex-shrink: 0;
+    margin: 1rem;
+    color: #FFF;
+    border-radius: 10px;
+    border: 1px solid white;
+    font-family: Roboto;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2.1px;
+    background-color:#89C15E ;
+}
+/* // hurry page */
+
+.cantenar2{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:20px ;
+}
+.cup{
+    border: 2px solid black;
+    height: 200px;
+    width: 300px;
+}
+
+/* //tie page */
+
+.platitems{
+    color: #FFF;
+text-align: center;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+letter-spacing: 3.9px;
+margin-top: 150px;
+}
+
+.platitems input{
+    width: 164px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 9px;
+    background: #FFF;
+    margin-left: 9px;
+    margin-top: 15px;
+    border: 1px solid white;
+
+}

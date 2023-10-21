@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    background-color: #8cc461;
+  }
+  .container {
+    width: 90%;
+    margin: auto;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 10px 15px;
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+  }
+  .title {
+    color: white;
+  }
+  .result {
+    display: flex;
+    gap: 20px;
+  }
+  .pc-score {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 7px;
+    width: 120px;
+  }
+  .pc-score > span {
+    text-transform: uppercase;
+    color: #656565;
+    font-weight: 600;
+  }
+  .pc-score > h1 {
+    font-size: 50px;
+  }
+  .my-score {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 7px;
+    width: 120px;
+  }
+  .my-score > span {
+    text-transform: uppercase;
+    color: #656565;
+    font-weight: 600;
+  }
+  .my-score > h1 {
+    font-size: 50px;
+  }
+  
+  .diagram {
+    position: relative;
+    display: flex;
+    margin-top: 5rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+  }
+  .row1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+  }
+  .rock {
+    cursor: pointer;
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    border: 10px solid #0074b6;
+    justify-content: center;
+    z-index: 12;
+  }
+  .line1 {
+    width: 9%;
+    height: 10px;
+    background-color: #000000b5;
+  }
+  .scissors {
+    cursor: pointer;
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    border: 10px solid #bd00ff;
+    justify-content: center;
+    z-index: 100;
+  }
+  .paper-container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    align-items: center;
+  }
+  .line2 {
+    width: 13%;
+    height: 10px;
+    background-color: #000000b5;
+    position: absolute;
+    left: 37%;
+    transform: rotate(55deg);
+    top: 50%;
+  }
+  .line3 {
+    width: 13%;
+    height: 10px;
+    background-color: #000000b5;
+    position: absolute;
+    right: 37%;
+    transform: rotate(-55deg);
+    top: 50%;
+  }
+  .paper {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    align-items: center;
+    border: 10px solid #ffa943;
+    z-index: 100;
+  }
+  img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+  }
+  
+  .win-container {
+    display: none;
+    margin-top: 5rem;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+    font-family: "Roboto", sans-serif;
+    color: white;
+  }
+  .left,
+  .right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 23px;
+  }
+  
+  .middle {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    margin-top: 3rem;
+  }
+  .play-again {
+    padding: 10px 25px;
+    border: none;
+    color: #6b6b6b;
+    border-radius: 7px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+  }
+  .left > span,
+  .right > span {
+    z-index: 1000;
+  }
+  
+  .middle > h1 {
+    font-size: 33px;
+  }
+  
+  .cup-container {
+    display: none;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 20px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+  }
+  .image::before {
+    position: absolute;
+    content: url(./images/win.png);
+    top: 6%;
+    z-index: 1;
+    left: 33%;
+  }
+  .image > img {
+    width: 100%;
+    height: 100%;
+  }
+  .cup-container > h1 {
+    font-size: 6rem;
+  }
+  .cup-container > h2 {
+    font-size: 2rem;
+  }
+  .game_rules {
+    font-family: "Roboto", sans-serif;
+    width: 260px;
+    position: absolute;
+    right: 5%;
+    top: 34%;
+    border: 6px solid white;
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #004429;
+    color: white;
+    border-radius: 7px;
+  }
+  .game_rules > h1 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .game_rules > ul {
+    padding: 10px 20px;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    list-style-type: square;
+  }
+  .game_rules > ul > li::marker {
+    color: #ffd600;
+  }
+  
+  .close {
+    position: absolute;
+    top: -13%;
+    right: -13%;
+    background-color: #ff0000;
+    font-size: 28px;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: center;
+    border: 6px solid white;
+    font-weight: 600;
+  }
+  
+  .rules {
+    position: absolute;
+    top: 90%;
+    right: 2%;
+    margin-right: 20px;
+    padding: 5px 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  .next {
+    display: none;
+    position: absolute;
+    top: 90%;
+    right: 0%;
+    margin-right: 50px;
+    padding: 5px 10px;
+    border: 2px solid white;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+  }
+  
+  .win {
+    box-shadow: 0 0 0 30px #1da82b, 0 0 0 50px #1da82ba3;
+  }

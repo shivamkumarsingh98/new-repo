@@ -1,0 +1,158 @@
+Basic Concepts:
+
+What is JavaScript?
+Explain the difference between null and undefined.
+What are variables? How do you declare them?
+How do you comment in JavaScript?
+What are data types in JavaScript?
+How can you convert a string to a number in JavaScript?
+How can you check the type of a variable?
+Explain the difference between == and ===.
+What is the ternary operator? Provide an example.
+What is the purpose of the typeof operator?
+Control Flow:
+
+How do you write an if statement in JavaScript?
+What is the syntax for a switch statement?
+How do you write a for loop?
+Write a while loop that prints numbers from 1 to 10.
+Explain the difference between break and continue statements.
+Functions:
+
+How do you define a function in JavaScript?
+Write a function that returns the sum of two numbers.
+What is a function expression?
+How do you pass arguments to a function?
+Explain the concept of scope in JavaScript.
+Arrays:
+
+How do you create an array in JavaScript?
+How do you access an element in an array?
+Write code to add an element to the end of an array.
+How do you iterate through an array using a for...of loop?
+How can you find the length of an array?
+Objects:
+
+What is an object in JavaScript?
+How do you access an object's property?
+Write code to add a new property to an object.
+Explain the concept of destructuring in JavaScript.
+How do you create a method in an object?
+Strings:
+
+How do you concatenate strings in JavaScript?
+Write code to find the length of a string.
+How do you convert a string to uppercase?
+How can you check if a string contains a specific substring?
+Explain the purpose of the split() method.
+Loops and Iteration:
+
+Write a program to print even numbers between 1 and 20.
+Write code to generate the Fibonacci sequence.
+How do you use the map() function on an array?
+Explain the concept of recursion in JavaScript.
+Functional Programming:
+
+What are higher-order functions?
+How do you use the filter() function on an array?
+Write code to find the sum of all numbers in an array using reduce().
+Explain the concept of immutability in functional programming.
+ES6 Features:
+
+What is the arrow function syntax?
+How do you use template literals in JavaScript?
+What are default function parameters?
+Explain the concept of rest and spread operators.
+Closures and Scopes:
+
+What is a closure in JavaScript?
+How does a closure capture variables?
+Write a function that demonstrates closure.
+Asynchronous Programming:
+
+What is the event loop in JavaScript?
+Explain the concept of callbacks.
+How do you handle asynchronous operations using Promises?
+Write code to make an HTTP request using fetch().
+Error Handling:
+
+What is the purpose of the try...catch statement?
+Write a simple example of using try...catch to handle an error.
+DOM Manipulation:
+
+How do you select an element using its ID in the DOM?
+Write code to change the text content of a DOM element.
+Explain how to add an event listener to a DOM element.
+How can you create a new DOM element using JavaScript?
+Classes and Object-Oriented Programming:
+
+What are classes in JavaScript?
+How do you define a class and its constructor?
+Explain the concepts of inheritance and polymorphism.
+Modules:
+
+What is a module in JavaScript?
+How do you export and import modules?
+Browser APIs:
+
+Explain the localStorage and sessionStorage APIs.
+How do you use the setTimeout() function?
+Write code to show an alert when a button is clicked.
+Regular Expressions:
+
+What is a regular expression?
+Write a regular expression to match an email address.
+Math and Number Methods:
+
+How do you generate a random number in JavaScript?
+Explain the Math.max() and Math.min() methods.
+Write code to round a number to a specified decimal place.
+Date and Time:
+
+How do you create a Date object in JavaScript?
+Explain the getFullYear(), getMonth(), and getDate() methods.
+Type Conversion and Coercion:
+
+What is type coercion in JavaScript?
+Explain the difference between truthy and falsy values.
+Debugging and Tools:
+
+How do you use the console.log() function for debugging?
+Explain how to set breakpoints in browser developer tools.
+Coding Challenges:
+
+Write a function to find the factorial of a given number.
+Write a function to reverse a string.
+Write code to check if a number is prime.
+Write a program to find the largest element in an array.
+Write code to remove duplicates from an array.
+More Advanced Concepts:
+
+What is the this keyword in JavaScript?
+Explain how to create a prototype chain.
+What are closures and how do they affect memory?
+Practice Project:
+
+Create a simple to-do list application using HTML, CSS, and JavaScript.
+Build a basic calculator application using DOM manipulation.
+Create a trivia quiz game with questions and multiple-choice answers.
+Browser Compatibility and ES6:
+
+What are some ways to ensure your JavaScript code works across different browsers?
+Explain the concept of transpilers and Babel.
+Coding Best Practices:
+
+What is the importance of naming conventions in coding?
+Explain the DRY (Don't Repeat Yourself) principle.
+How do you use version control (e.g., Git) to manage your code?
+Debugging and Troubleshooting:
+
+Describe common errors in JavaScript and how to fix them.
+How do you use breakpoints to debug code?
+Promote Reusability:
+
+Explain the concept of modular programming.
+How do you organize your code into functions and modules?
+Testing and QA:
+
+What is unit testing, and why is it important in JavaScript?

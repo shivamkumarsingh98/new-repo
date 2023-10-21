@@ -1,0 +1,9 @@
+.panelone{
+    margin-top: 100px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-image: linear-gradient(90deg,#f9f9ff,#dee8ff);
+    justify-content: center;
+    
+}
