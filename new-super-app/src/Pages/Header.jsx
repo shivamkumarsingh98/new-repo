@@ -5,7 +5,6 @@ const Header = () => {
     return (
         <div>
             <Category />
-            <h1>hello</h1>
         </div>
     )
 }

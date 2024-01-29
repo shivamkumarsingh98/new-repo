@@ -1,0 +1,20 @@
+.body {
+    width: 300px;
+    height: 500px;
+    overflow: scroll;
+    /* border: 5px solid black; */
+}
+img {
+    max-width: 100%; 
+    max-height: 100%; 
+  }
+
+.title {
+    color: black;
+
+}
+
+.description {
+    color: black;
+    line-height: 1rem;
+}
