@@ -1,0 +1,49 @@
+.body{
+    width: 100%;
+    height: 800px;
+    background-color: #212432;
+    color: aliceblue;
+    display: grid;
+}
+.sectionone{
+    display: flex;
+    justify-content: space-between;
+}
+.innersectionone{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+}
+.texttag{
+    line-height: 60px;
+    margin: 2rem;
+    font-size: 13px;
+}
+
+.line{
+    width: 90%;
+    margin: 0rem 0rem 1rem 4rem;
+    border: 0.15px solid rgb(14, 1, 19);
+}
+.alllinks{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.socilmedia{
+    padding: 10px;
+}
+.socilmedia a{
+    margin: 10px;
+    font-size: 20px;
+}
+.paragraf a{
+font-size: 12px;
+}
+.textset{
+    color: gray;
+}
+.imagetag{
+    margin: 2rem;
+}

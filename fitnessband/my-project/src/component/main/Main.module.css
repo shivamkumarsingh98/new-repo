@@ -1,0 +1,203 @@
+.imagesection {
+    width: 100%;
+    height: 600px;
+    background-image: url("../../assets/fitnessimage.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.cards {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+    border: 1px solid red;
+}
+/* .card {
+    width: 190px;
+    height: 300px;
+    background: #07182E;
+    position: relative;
+    display: flex;
+    place-content: center;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 20px;
+  }
+  
+  .card p {
+    z-index: 1;
+    color: white;
+    font-size: 2em;
+  }
+  
+  .card::before {
+    content: '';
+    position: absolute;
+    width: 100px;
+    background-image: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+    height: 130%;
+    animation: rotBGimg 3s linear infinite;
+    transition: all 0.2s linear;
+  } */
+
+.sectiontwo {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.imagesectiontwo {
+    width: 50%;
+    height: 500px;
+    background-image: url("../../assets/feature-1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sectiontext {
+    margin: 5rem;
+    padding: 10px;
+
+}
+
+.headertext {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.subtext {
+    margin: 20px;
+    font-size: 15px;
+}
+
+.subbtn {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+}
+
+.sectionthree {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagesectionthree {
+    width: 50%;
+    height: 500px;
+    background-image: url("../../assets/fitness-pro-fbplus-what-is-2020.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cardstwo {
+    height: 600px;
+    border: 1px solid black;
+    display: grid;
+    justify-content: center;
+}
+
+.cardstwosection {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    margin: 15px;
+}
+
+.sectionfour {
+    width: 100%;
+    height: 1500px;
+    display: grid;
+}
+
+.imagesectionfour {
+    width: 50%;
+    height: 700px;
+    background-image: url("../../assets/home-testimonial-removebg-preview.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sectiontexttow {
+    height: 700px;
+    background-color: #212432;
+    color: aliceblue;
+    text-align: center;
+}
+
+.boxfive {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f1f6f8;
+    height: 700px;
+}
+
+.textsection {
+    color: #f1f6f8;
+    padding: 100px;
+    margin-left: 10px;
+    text-align: start;
+    line-height: 0.85;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.extratext {
+    font-size: 20px;
+    color: black;
+    padding: 15px;
+    font-weight: lighter;
+}
+
+.headertexttwo {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.subtexttwo {
+    margin-left: 30px;
+    line-height: 1;
+}
+
+.subtextthree {
+    margin-top: 50px;
+    font-size: 45px;
+    line-height: 40px;
+}
+
+.countertext {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.counter {
+    font-size: 75px;
+    color: #91eeda;
+}
+  .swiper {
+    width: 50%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    background-color: black;
+  }
+  
+  .swiperslidersecond{
+    background-position: center;
+    background-size: cover;
+    width: 10px;
+    height: 300px;
+  }
+  .swipersecond{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    background-color: rgb(43, 255, 0);
+  }
+  
+ 
+  
